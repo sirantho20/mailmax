@@ -1,0 +1,26 @@
+/* 
+    Document   : main
+    Created on : Nov 23, 2012, 5:29:52 PM
+    Author     : tony
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    
+}
+.section-header {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.section-header hr {
+    padding: 0px;
+    margin-top: 5px;
+    
+}
+.error {
+    color: red;
+}
+

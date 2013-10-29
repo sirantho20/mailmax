@@ -1,0 +1,1 @@
+<div style="margin-top: 100px;" class="offset2 span8 content">Congratulations! your account is now setup and ready to used. Please check your email for login details. <br />In case you have any difficulties, please contact us on <?php echo Yii::app()->params['mailSupportEmail']; ?>.</div>
