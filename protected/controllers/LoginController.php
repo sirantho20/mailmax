@@ -15,7 +15,7 @@ class LoginController extends Controller
                     {
 //                        $zm = new yiiZimbra();
 //                        $zm->reverseDomainAccounts(Yii::app()->user->accountdomain);
-                        $this->redirect(Yii::app()->createUrl('dashboard/index'));
+                        $this->redirect(Yii::app()->createUrl('emailAccounts/Admin'));
                     }
                     else 
                     {
