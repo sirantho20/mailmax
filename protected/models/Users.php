@@ -139,13 +139,13 @@ class Users extends CActiveRecord
             $pass = $this->generatePassword($user);
             
             $msg = new YiiMailMessage();
-            $msg->addTo('sirantho20@gmail.com');
+            $msg->addTo($this->email);
             $msg->from = Yii::app()->params['emailFrom'];
             $msg->setSubject(CHtml::encode(Yii::app()->name.' new password generated'));
             $msg->view = 'accountMainPassword';
             $msg->setBody(array('password'=>$pass,'model'=>$model), 'text/html');
             
-            $mail = new YiiMail();
+            //$mail = new YiiMail();
             
             
             try 

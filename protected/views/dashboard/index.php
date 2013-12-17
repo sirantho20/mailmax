@@ -5,6 +5,7 @@
 Yii::app()->clientScript->registerScript('googleVisualisationAccountDashboard', "
  
 ");
+if ( $emailsCreated > 0):
 ?>
 <div class="row-fluid">
     <div class="container span6">
@@ -33,3 +34,4 @@ Yii::app()->clientScript->registerScript('googleVisualisationAccountDashboard', 
 <div class="row-fluid">
     <div id="chart_div" class="bs-docs-example-domainTopDiskUsers"></div>
 </div>
+<?php endif; ?>
