@@ -68,20 +68,20 @@
 //      ),
 //    ),
 //)); ?>
-    <div class="navbar navbar-fixed-top">
+   <!-- <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
     <a class="brand" href="#">Mailmax</a>
     <ul class="nav">
-        <li><a href="<?php echo Yii::app()->createUrl('/') ?>#home">Home</a></li>
-    <li><a href="<?php echo Yii::app()->createUrl('/') ?>#features">Features</a></li>
-    <li><a href="<?php echo Yii::app()->createUrl('/') ?>#pricing">Pricing</a></li>
-    <li><a href="<?php echo Yii::app()->createUrl('/') ?>#contact">Contact</a></li>
+        <li><a href="<?php //echo Yii::app()->createUrl('/') ?>#home">Home</a></li>
+    <li><a href="<?php //echo Yii::app()->createUrl('/') ?>#features">Features</a></li>
+    <li><a href="<?php //echo Yii::app()->createUrl('/') ?>#pricing">Pricing</a></li>
+    <li><a href="<?php //echo Yii::app()->createUrl('/') ?>#contact">Contact</a></li>
     </ul>
        <ul class="nav pull-right">
            <li><a href="<?php echo Yii::app()->createUrl('login'); ?>">login</a></li>
     </ul>
     </div>
-    </div>
+    </div> -->
     <a id="home"></a>
     <div style="margin-top: 100px;" class="clear"></div>
 
