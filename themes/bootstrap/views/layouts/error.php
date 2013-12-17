@@ -39,7 +39,7 @@
 
 <body style="padding-top: 0px !important;">
     
-    <div class="row-fluid container"><div class="span1">Logo</div><div class="span11">others</div></div>
+   
     <?php // $this->widget('bootstrap.widgets.TbNavbar',array(
 //    'brand'=>'',
 //    'htmlOptions'=>array('class'=>'navbar-fixed-top'),

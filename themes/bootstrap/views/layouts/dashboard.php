@@ -1,5 +1,5 @@
 <?php /* @var $this Controller */ ?>
-<?php $this->beginContent('//layouts/main'); ?>
+<?php //$this->beginContent('//layouts/main'); ?>
     <div class="container-fluid">
     <div class="row-fluid">
         
@@ -8,4 +8,4 @@
         ?>
     </div>
     </div>
-<?php $this->endContent(); ?>
+<?php //$this->endContent(); ?>
