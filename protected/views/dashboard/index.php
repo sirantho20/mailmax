@@ -7,7 +7,7 @@ Yii::app()->clientScript->registerScript('googleVisualisationAccountDashboard', 
 ");
 
 ?>
-<?php if ( $emailsCreated > 0): ?>
+<?php //if ( $emailsCreated > 0): ?>
 <div class="row-fluid">
     <div class="container span6">
         <div class="portlet bs-docs-example-domainDiskUsage"><center style="font-size:90%;"><?php echo 'Used '.  Yii::app()->numberFormatter->format('',$domainUsedDisk).' out of '.$provisioned.'MB available'; ?></center>
@@ -35,9 +35,9 @@ Yii::app()->clientScript->registerScript('googleVisualisationAccountDashboard', 
 <div class="row-fluid">
     <div id="chart_div" class="bs-docs-example-domainTopDiskUsers"></div>
 </div>
-<?php else: ?>
+<?php //else: ?>
 <div class="row-fluid span6 offset3">
     <div>You have not created any email accounts yet. <a class="btn btn-inverse" href="<?php echo $this->createAbsoluteUrl('emailAccounts/create'); ?>">Create one here!</a></div>
 </div>
-<?php endif; ?>
+<?php //endif; ?>
 
