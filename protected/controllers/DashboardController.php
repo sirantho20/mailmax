@@ -2,7 +2,7 @@
 
 class DashboardController extends Controller
 {
-    public $layout='//layouts/dashboard';
+    //public $layout='//layouts/dashboard';
         public function filters()
         {
             return array(
