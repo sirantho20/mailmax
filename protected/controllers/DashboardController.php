@@ -52,7 +52,8 @@ class DashboardController extends Controller
             $emailLimit = $ac->getAccountPackageEmailLimit();
             $emailsCreated = $ac->getAccountEmailsCount();
             $emailsCreatedPercent = $ac->getAccountEmailsCreatePercent();
-            $this->render('index',array('domainUsedDisk'=>$domainUsedDisk,'provisioned'=>$provisioned,'percent'=>$percent,'top5'=>$top5,'emailLimit'=>$emailLimit,'emailsCreated'=>$emailsCreated,'emailsCreatedPercent'=>$emailsCreatedPercent));
+            //$this->render('home');
+            $this->render('home',array('domainUsedDisk'=>$domainUsedDisk,'provisioned'=>$provisioned,'percent'=>$percent,'top5'=>$top5,'emailLimit'=>$emailLimit,'emailsCreated'=>$emailsCreated,'emailsCreatedPercent'=>$emailsCreatedPercent));
 	}
 
 
