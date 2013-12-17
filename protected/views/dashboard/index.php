@@ -5,8 +5,9 @@
 Yii::app()->clientScript->registerScript('googleVisualisationAccountDashboard', "
  
 ");
-if ( $emailsCreated > 0):
+
 ?>
+<?php if ( $emailsCreated > 0): ?>
 <div class="row-fluid">
     <div class="container span6">
         <div class="portlet bs-docs-example-domainDiskUsage"><center style="font-size:90%;"><?php echo 'Used '.  Yii::app()->numberFormatter->format('',$domainUsedDisk).' out of '.$provisioned.'MB available'; ?></center>
